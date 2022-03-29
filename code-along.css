@@ -1,3 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
 nav {
-  display: none;
+  /* display: none; */
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  max-width: 175px;
+  height: 125px;
+}
+
+* {
+  /* border: 1px solid teal; */
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+aside {
+  min-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
